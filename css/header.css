@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Cardo', serif;
+}
 header{
     background-color: black;
 }
@@ -18,7 +20,7 @@ header{
     width: auto;
     right: 60px;
     top: 125px;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .lista-header li{
@@ -33,3 +35,19 @@ header{
   
   
 }
+
+.minha-foto{
+    border-radius: 50px;
+    margin: 30px auto;
+
+}
+
+.informacoes-box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-color: white;
+    color: black;
+}
+
