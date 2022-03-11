@@ -1,5 +1,8 @@
 body{
-    font-family: 'Cardo', serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(180deg, #000000 44.27%, rgba(4, 34, 47, 0.928906) 62.5%, rgba(4, 34, 47, 0.928906) 75.52%, rgba(20, 169, 233, 0.65) 99.48%);
 }
 header{
     background-color: black;
@@ -29,25 +32,104 @@ header{
 }
 .lista-header li a{
   text-transform: uppercase;
-  font-size: 32px; 
+  font-size: 24px; 
   text-decoration: none;
   color: white;
   
   
 }
 
-.minha-foto{
-    border-radius: 50px;
-    margin: 30px auto;
 
+.titulos-box h2{
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(20, 169, 233, 0.65);
+    color: white;
+    margin: 1em 10%;
+    border: black;
+    vertical-align: left;
 }
 
-.informacoes-box{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-    padding: 20px 20px;
+.sobre-box{
+    width: auto;
+    margin: 0 10%;
     background-color: white;
-    color: black;
+    border-radius: 60px;
+    
+    
+    
 }
 
+.sobre-box img{
+    border-radius: 40px;
+    border: 2px solid black;
+    width: 25%;
+    margin: 40px 2.5%;
+    vertical-align: top;
+}
+
+
+
+.lista-sobre{
+    display: inline-block;
+    width: 60%;
+    margin: 40px 2.5%;
+
+}
+
+.titulo-sobre{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1em;
+
+}
+
+.paragrafo-sobre{
+    font-size: 18px;
+    line-height:normal;
+    text-align: justify;
+    text-indent: 1em;
+}
+.paragrafo-sobre a{
+    text-decoration: none;
+    color: rgb(28, 94, 192);
+}
+
+.certificados-box{
+    background-color: black;
+    box-shadow: 5px 5px 5px black;
+    margin: 1em auto;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+
+.certificados-box li{
+    color: white;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+
+.certificados-box a{
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: rgba(20, 169, 233, 0.65) ;;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+
+.img-codigos{
+    width: 100%;
+    
+}
