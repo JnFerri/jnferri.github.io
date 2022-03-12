@@ -135,6 +135,42 @@ header{
 }
 
 
-.planosestudos-box{
-    background-color: linear-gradient( rgba(20, 169, 233, 0.65), rgb(35, 197, 247));
+.planosestudos{
+    background-color: rgb(35, 197, 247);
+}
+
+.planos-box{
+background-color: white;
+width: 40%;
+margin: 100px 2.5%;
+display: inline-block;
+vertical-align: top;
+padding: 40px 40px ;
+border-radius: 40px;
+
+}
+
+.img-mergulhador{
+    width: 40%;
+    display: inline-block;
+    margin: 100px 2.5%;
+
+}
+
+.planos-box h3{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 20px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+
+.lista-planos li{
+    font-size: 22px;
+    padding: 1em 0;
+
 }
