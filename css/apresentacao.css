@@ -1,7 +1,7 @@
 .apresentacao__container{
     display: flex;
     align-items: center;
-    margin: 3rem 5% 0 5%;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -20,11 +20,13 @@
 }
 
 .apresentacao__paragrafo{
-    font-size: 55px;
+    font-size: 40px;
     color: white;
     margin-left: 10%;
 }
 
 .apresentacao__imagem{
     width: 35%;
+    right: 0;
+    bottom: 0;
 }
