@@ -26,7 +26,9 @@
 }
 
 .apresentacao__imagem{
-    width: 35%;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    right: 2%;
+    bottom: 0%;
+    width: 94vh;
+    
 }
