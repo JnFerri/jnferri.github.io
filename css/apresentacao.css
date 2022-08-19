@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin: 3rem 5% 0 5%;
+    justify-content: space-between;
 }
 
 .apresentacao{
@@ -14,12 +15,14 @@
 .apresentacao__titulo{
     font-size: 80px;
     color: white;
+    margin-left: 10%;
 
 }
 
 .apresentacao__paragrafo{
     font-size: 55px;
     color: white;
+    margin-left: 10%;
 }
 
 .apresentacao__imagem{
