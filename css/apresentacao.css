@@ -13,16 +13,20 @@
 }
 
 .apresentacao__titulo{
-    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
     color: white;
     text-shadow: 3px 3px 1px black;
     margin-left: 10%;
+    font-weight: bold;
 
 }
 
 .apresentacao__paragrafo{
+    padding: 1rem 0;
+    font-family: 'Open Sans', sans-serif;
     text-shadow: 2px 2px 2px black;
-    font-size: 40px;
+    font-size: 32px;
     color: white;
     margin-left: 10%;
 }
