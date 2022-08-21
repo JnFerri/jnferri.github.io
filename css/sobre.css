@@ -1,0 +1,65 @@
+.sobre__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: -32px 0 1rem 0;
+    background-color: black;
+    padding: 100px 0;
+}
+
+.sobre__descricao{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.sobre__titulo{
+    margin: 1rem 0;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.sobre__paragrafo{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 5px 0;
+    text-align: justify;
+    text-indent: 6ch;
+    
+}
+
+.sobre__descricao a{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(158, 208, 255);
+    text-decoration: none;
+}
+
+.sobre__descricao a:hover{
+    color:rgb(48, 100, 148) ;
+}
+
+.sobre__habilidades{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.sobre__habilidades li{
+    display: flex;
+    align-items: center;
+}
+
+.habilidades__imagem{
+    width: 100px;
+}
+
+.titulo__habilidade{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}

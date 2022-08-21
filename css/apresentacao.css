@@ -38,3 +38,10 @@
     width: 94vh;
     
 }
+
+.svg__borda{
+    background: black;
+    width: 100%;
+    margin: -500px 0;
+    
+}
