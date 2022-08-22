@@ -1,0 +1,106 @@
+body{
+    height: 100vh;
+    background: rgb(51,1,88);
+background: linear-gradient(129deg, rgba(51,1,88,1) 0%, rgba(115,25,96,1) 71%, rgba(117,5,164,1) 98%);
+font-family: 'Koulen', cursive;
+}
+header{
+    height: 100px;
+    text-align: center;
+}
+.titulo{
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: rgb(78, 78, 78) 1px 1px ;
+}
+#container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 6rem auto;
+    
+}
+.calculadora{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #222222;
+}
+#exibidor{
+    padding: 10px 0;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: #222222 solid 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+#exibidor p{
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.botoes__calculo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.botoes__calculo input{
+    background-color: #222222;
+    color: white;
+    font-size: 40px;
+    width: 25%;
+    border: 2px solid white;
+    padding: 20px;
+    transition: 6ms;
+    border-radius: 5px;
+}
+.botoes__calculo input:hover{
+    font-size: 60px;
+    padding: 8px;
+
+}
+.botoes__calculo input:active{
+    background-color:#444444;
+}
+.botoes__numerais{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.botoes__numerais input{
+    width: 33.33%;
+    font-size:34px;
+    border: 2px solid black;
+    color: #222222;
+    background-color: white;
+    padding: 10px;
+    width: bold;
+    border-radius: 5px;
+    transition: 6ms;
+}
+.botoes__numerais input:hover{
+    font-size: 44px;
+    padding: 4px;
+
+}
+.botoes__numerais input:active{
+    background-color:rgba(255, 255, 255, 0.788);
+}
+.botoes__numerais input:last-child {
+    color: red;
+    background-color: #222222;
+}
+.botoes__numerais input:nth-child(11){
+    color: green;
+    background-color: #222222;
+}
+

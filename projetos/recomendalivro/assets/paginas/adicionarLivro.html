@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomenda Livro</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@700&family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomenda Livro</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/banner.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/adicionar-livro.css">
+
+    
+
+</head>
+<body>
+
+    <header>
+        <section class="cabecalho">
+            <div class="cabecalho__container">
+                <img src="assets/img/logo.png" alt="logo" class="cabecalho__logo">
+                <nav class="cabecalho__nav">
+                    <a href="index.html">Pagina Inicial</a>
+                    <a href="Recomendacoes.html">Recomendações</a>
+                    <a href="assinatura.html">Assinatura</a>
+                </nav>  
+            </div>
+        </section>
+    </header>
+
+    <main>
+        
+                <form action="livro.js" class="formulario">
+                    <div class="formulario__elementos">
+                        <label for="Imagem">Imagem :</label>
+                            <input type="text" id="imagemPost" class="formulario__text imagemPost" placeholder="src imagem">
+                    </div>
+                    <div  class="formulario__elementos">
+                        <label for="nomeAutor">Nome do Livro:</label>
+                        <input type="text" id="nomeLivro" class="formulario__text nomeLivro" placeholder="Nome do Livro">
+                    </div>
+                    <div class="formulario__elementos">
+                        <label for="nomeAutor">Nome do Autor</label>
+                        <input type="text" id="nomeAutor" class="formulario__text nomeAutor" placeholder="Nome Autor">
+                    </div>
+                    <div class="formulario__elementos">
+                        <label for="descricaodoLivro">Descrição do livro:</label>
+                        <textarea name="descricaoLivro" id="descricaoLivro" cols="100" rows="30" class="descricaoLivro" placeholder="Descricao do Livro">
+                         </textarea>
+                    </div>
+                   <input type="button" value="Enviar" onclick="adicionarNovoLivro()">
+                </form>
+
+               
+                    
+                   
+
+                <script src="./index.js"></script>
+                <script src="./Livro.js"></script>
+        
+    </main>
+
+    <footer class="footer">
+        
+            
+        <div class="footer__container">
+            <img class="footer__img" src="assets/img/logo.png" alt=" logo recomenda livros">
+            
+            <h3 class="footer__contato">Contato: jeanferrimh@gmail.com</h3>
+        </div>
+    
+
+</footer>
+   
+    
+</body>
+</html>

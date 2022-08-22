@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@700&family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomenda Livro</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <!-- Javascript cabecalho.js -->
+
+    </header>
+    <section class="banner">
+        <div class="banner__imagem">
+        <h2 class="banner__titulo">A leitura engrandece a alma</h2>
+    </div>
+    </section>
+    <main class="conteudo">
+        <section class="apresentacao">
+
+            <div class="apresentacao__container">
+                <ul class="apresentacao__lista" type="none" data-anime="left">
+                    <li>
+                        <h2 class="apresentacao__titulo">Sobre o recomenda Livro</h2>
+                    </li>
+                    <li>
+                        <p class="apresentacao__paragrafo">
+                            O Recomenda livro é um projeto para os amantes de livros que desejam receber feedbacks de livros e pdf's para a leitura dos mesmos em seu email, criado por mim Jean Ferri, postarei após cada leitura uma pequena demonstração dos sentimentos despertados por mim durante a leitura.</p>
+                        <p class="apresentacao__paragrafo">
+                            Espero que todos vocês assim como eu, apaixonem-se pela leitura, e que através deste site eu possa demonstrar um pouco dos meus sentimentos ao ler estas maravilhosas obras.
+                        </p>
+                    </li>
+
+                    
+                </ul>
+                <video src="assets/videos/Ola Sou (1).mp4" autoplay loop class="apresentacao__video" data-anime="right"></video>
+            </div>
+        </section>
+        
+        <section class="livros" data-anime="left">
+                <h2 class="livros__titulo">Livros</h2>
+                <div class="livros__container">
+                        <div class="livro">
+                            <button class="livro__link" onclick='selecionarModal()'>
+                                <img src="assets/img/cartas a meneceu.png" alt="livro cartas a meneceu" class="livro__img">
+                                <h3 class="livro__titulo">Cartas a Meneceu</h3>
+                                <p class="livro__autor">Autor: Epicuro</p>
+                            </button>
+                        </div>
+                        <div class="livro">
+                            <button class="livro__link" onclick='selecionarModal()' >
+                                <img src="assets/img/brevidade da vida.png" alt="Livro sobre a brevidade da vida" class="livro__img">
+                                <h3 class="livro__titulo">Sobre a brevidade da vida</h3>
+                                <p class="livro__autor">Autor: Seneca</p>
+                            </button>
+                        </div>
+                        <div class="livro">
+                            <button class="livro__link" onclick='selecionarModal()'>
+                                <img src="assets/img/juventude-removebg-preview.png" alt="Livro juventude" class="livro__img">
+                                <h3 class="livro__titulo">Juventude</h3>
+                                <p class="livro__autor">Autor: Joseph Conrad</p>
+                            </button>
+                        </div>
+                </div>
+                </ul>
+                
+        </section>
+
+        <div class="modal" style="visibility: hidden;">
+            <input type="button" value="Voltar" class="modal__botao" onclick="fecharModal()">
+
+            <div class="modal__container">
+                <img  class="modal__imagem" src="" alt="imagem livro ">
+                <p class="modal__descricao"></p>
+            </div>
+        </div>
+
+        <section class="formulario">
+                <div class="formulario__adicionador">
+                    <h3 class="formulario__titulo">Adicione um novo livro :</h3>
+                    <input type="button" value="Clique Aqui" id="botaoAbrirForm" class="formulario_botaoabrir"  onclick="abrirForm()">
+                    </div>
+                    <div class="formulario__container">
+
+                    
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        
+        <!-- Javascript footer.js -->
+
+    </footer>
+    
+    <script src="assets/js/postarLivro.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/cabecalho.js"></script>
+    
+</body>
+</html>
