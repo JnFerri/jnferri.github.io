@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirabilis 3D Studio - Portifolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/animacao.css">
+    <link rel="stylesheet" href="assets/css/descricao.css">
+    <link rel="stylesheet" href="assets/css/trabalhos.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/portifolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        
+        <!--- header.js carrega header container navegação !--->
+    
+    </header>
+
+    <main>
+        <section class="portifolio">
+                <h2 class="trabalhos__titulo">Imagens :</h2>
+                <div class="portifolio__imagens">
+                        
+                    <div id="imagemPortifolio" class="portifolio__imagem">
+                        
+                    </div>
+                </div>
+                <h2 class="trabalhos__titulo">videos :</h2>
+                <div class="portifolio__container">
+                    <input type="button" id="botaoAnterior" class="portifolio__botao" value="<" onclick="anteriorVideo()" >
+                <div id="videoPortifolio" class="portifolio__video">
+                    
+                </div>
+                    <input type="button" id="botaoProximo" class="portifolio__botao" value=">" onclick="seguinteVideo()">
+            </div>
+        </section>
+
+    </main>
+    
+    <footer id="footer">
+        <!--- footer.js carrega footer !--->
+    </footer>
+
+</body>
+<script type="module" src="assets/js/index.js"></script>
+<script src="assets/js/ImgPost.js"></script>
+<script src="assets/js/videoPost.js"></script>
+</html>

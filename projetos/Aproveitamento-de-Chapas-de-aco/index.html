@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos engenharia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/resultado.css">
+</head>
+<body>
+
+    <header id="header">
+        <!-- header.js -->
+    </header>
+
+    <main>
+       <div class="container">
+           
+           <form action="" class="formulario">
+               <h2 class="titulo">Coloque os valores :</h2>
+               <p class="alerta">Utilize " . " em vez de " , " nos numeros. </p>
+               <section class="formulario__textos">
+                       <input type="text" class="formulario__inputTexto" name="pecaX" id="pecaX" placeholder="Medida X da Peça">
+                       <input type="text"  class="formulario__inputTexto" name="pecaY" id="pecaY" placeholder="Medida Y da Peça">
+                       <input type="number" class="formulario__inputTexto"  name="pesoSolid" id="pesoSolid" placeholder="Peso do Solid em kg">
+               </section>
+               <fieldset class="formulario__seletores">
+                       <select name="material" id="material" class="seletor">
+                           <option value="">Material</option>
+                           <option value="galvanizado">Galvanizado</option>
+                           <option value="inox304" >Inox304</option>
+                           <option value="inox430" >Inox430</option>
+                       </select>
+                       <select name="espessura" id="espessura" class="seletor">
+                           <option value="">Espessura</option>
+                       </select>
+                       <input type="button" value="Calcular" class="formulario__botao" id="botaoFormulario">
+               </fieldset>
+
+             </form>
+
+        <div class="horizontal">
+            <h3>Peça na Horizontal</h3>
+            <p class="horizontal__X">X</p>
+            <p class="horizontal__Y">Y</p>
+        </div>
+
+        <div class="vertical">
+            <h3>Peça na Vertical</h3>
+            <p class="vertical__X">X</p>
+            <p class="vertical__Y">Y</p>
+        </div>
+    </div>
+        <h2 class="resultado__titulo">Resultado :</h2>
+        <div id="resultado">
+            
+        </div>
+    </main>
+ 
+    <footer id="footer">
+        
+        <!--footer.js-->
+
+    </footer>
+    <script type="module" src="assets/js/index.js"></script>
+</body>
+
+</html>
