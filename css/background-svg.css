@@ -6,3 +6,8 @@ body{
     width: 100%;
     margin-top: -140px;
 }
+
+.svg__bottom{
+    width: 110%;
+    margin: -50px;
+}
