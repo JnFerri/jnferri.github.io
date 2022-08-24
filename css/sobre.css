@@ -10,6 +10,7 @@
 .sobre__descricao{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 45%;
 }
 
@@ -31,20 +32,34 @@
     
 }
 
-.sobre__descricao a{
+.sobre__link{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(158, 208, 255);
     text-decoration: none;
 }
 
-.sobre__descricao a:hover{
+.sobre__link:hover{
     color:rgb(48, 100, 148) ;
 }
 
+.botao__certificados{
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    border: 2px solid rgb(48, 100, 148) ;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2rem;
+    width: 50%;
+}
 .sobre__habilidades{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 30%;
 }
 

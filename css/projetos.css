@@ -46,3 +46,43 @@
     text-align: center;
     color: black;
 }
+
+#projetoContainer{
+    margin: 2rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.titulo__descricao-projetos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+    
+}
+
+.decricao__projetos{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 5px 0;
+    text-align: justify;
+    text-indent: 6ch;
+}
+
+#linkProjeto{
+    padding: 20px 20px;
+    background-color: black;
+    border: 2px solid rgb(82, 48, 114);
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    border-radius: 30px;
+    margin-top: 2rem;
+    
+    
+}
