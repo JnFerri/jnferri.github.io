@@ -21,13 +21,39 @@ import { Projeto } from "./Projeto.js"
     })
 
 
-    var personagem = document.querySelector('.apresentacao__imagem')
+    const debounce = function(func, wait, immediate) {
+        let timeout;
+        return function(...args) {
+          const context = this;
+          const later = function () {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+          };
+          const callNow = immediate && !timeout;
+          clearTimeout(timeout);
+          timeout = setTimeout(later, wait);
+          if (callNow) func.apply(context, args);
+        };
+      };
+
+    const target = document.querySelectorAll('[data-anime]')
+    const animationClass = 'animate'
     
-    window.onload = function carregarIMG(){
-        console.log(personagem.style.tranform)
-    }
+
+
+    var personagem = document.querySelector('.apresentacao__imagem')
+      document.onload=loadImg()
+
+function loadImg(){
+        setTimeout(function (){
+        target.forEach(function(element){
+             element.classList.add(animationClass)
+            })
+        },500)}
+    
    
 
+   
 
 
 
