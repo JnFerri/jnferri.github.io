@@ -39,21 +39,27 @@ import { Projeto } from "./Projeto.js"
     const target = document.querySelectorAll('[data-anime]')
     const animationClass = 'animate'
     
-
-
-    var personagem = document.querySelector('.apresentacao__imagem')
-      document.onload=loadImg()
-
-function loadImg(){
-        setTimeout(function (){
+function animeScroll(){
+    const windowTop = window.pageYOffset + window.innerHeight /4
         target.forEach(function(element){
-             element.classList.add(animationClass)
-            })
-        },500)}
-    
-   
+        if(windowTop > element.offsetTop){
+            element.classList.add(animationClass)
+        } else {
+            element.classList.remove(animationClass)
+        }
+    })
+}
 
-   
+animeScroll()
+
+if(target.length) {
+window.addEventListener('scroll', debounce(function(){
+    animeScroll()
+}, 1000))
+}
+      
+
+
 
 
 
