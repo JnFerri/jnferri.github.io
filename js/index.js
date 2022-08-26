@@ -20,6 +20,12 @@ import { Projeto } from "./Projeto.js"
         calculosEng.postarDescricao()
     })
 
+
+    var personagem = document.querySelector('.apresentacao__imagem')
+    
+    window.onload = function carregarIMG(){
+        console.log(personagem.style.tranform)
+    }
    
 
 
