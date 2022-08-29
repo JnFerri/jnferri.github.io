@@ -78,3 +78,26 @@
     color: white;
     text-transform: uppercase;
 }
+@media(max-width:768px){
+    .sobre__container{
+        flex-direction: column;
+    }
+
+    .sobre__descricao{
+        width: 95%;
+    }
+
+
+    .sobre__habilidades{
+        width: 95%;
+    }
+    .sobre__titulo{
+        text-align: center;
+    }
+    .botao__certificados{
+        width: 95%;
+    }
+    .sobre__paragrafo{
+        text-align: justify;
+    }
+}

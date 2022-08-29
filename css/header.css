@@ -11,10 +11,6 @@ header{
     margin: 2rem 0 0 2.5%;
 }
 
-.header__logo{
-    width: 175px;
-    border-radius: 40px;
-}
 
 .header__lista{
     display: flex;
@@ -37,4 +33,10 @@ header{
 .header__button:hover{
     transform: scale(1.1);
     color: rgba(18, 53, 76, 1);
+}
+
+@media(max-width:768px){
+.header__lista{
+    width: 100%;
+}
 }
