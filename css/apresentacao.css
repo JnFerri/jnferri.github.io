@@ -3,7 +3,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    margin-bottom:-140px ;
+    margin-bottom:-150px ;
 }
 
 .apresentacao{
@@ -33,9 +33,31 @@
 }
 
 .apresentacao__imagem{
-    position: relative;
     right: 2%;
     bottom: 0%;
-    width: 94vh;
-    
+    width: 100vh;
 }
+
+@media(max-width:768px){
+    .apresentacao__container{
+        margin-top: 2rem;
+        margin-bottom: -50px;
+        flex-direction: column;
+        
+    }
+    .apresentacao{
+        width: 100%;
+    }
+    .apresentacao__imagem{
+        width: 80%;
+    }
+
+    .apresentacao__titulo{
+        font-size: 36px;
+    }
+    .apresentacao__paragrafo{
+        font-size: 24px;
+        
+    }
+}
+
