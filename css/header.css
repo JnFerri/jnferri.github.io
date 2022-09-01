@@ -39,4 +39,7 @@ header{
 .header__lista{
     width: 100%;
 }
+.header__button{
+    font-size: 18px;
+}
 }

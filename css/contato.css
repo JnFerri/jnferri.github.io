@@ -40,3 +40,15 @@
     height: 40px;
     
 }
+
+@media(max-width:798px){
+
+    .contato__lista{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .contato__lista li{
+        padding: auto;
+        width: auto;
+    }
+}
