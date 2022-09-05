@@ -3,7 +3,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    margin-bottom:-150px ;
+    margin-bottom:-160px ;
 }
 
 .apresentacao{
@@ -41,7 +41,7 @@
 @media(max-width:768px){
     .apresentacao__container{
         margin-top: 2rem;
-        margin-bottom: -50px;
+        margin-bottom: -40px;
         flex-direction: column;
         
     }
@@ -58,6 +58,18 @@
     .apresentacao__paragrafo{
         font-size: 20px;
         
+    }
+}
+
+@media(min-width:1900px){
+    .apresentacao__container{
+        margin-bottom: -180px;
+    }
+}
+
+@media(min-width:2500px){
+    .apresentacao__container{
+        margin-bottom: -250px;
     }
 }
 
