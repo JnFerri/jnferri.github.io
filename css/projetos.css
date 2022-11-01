@@ -71,15 +71,17 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 48px;
     color: white;
+    text-shadow: 1px 1px 1px black;
     text-align: center;
     margin: 2rem 0;
     
 }
 
 .decricao__projetos{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: black;
+    font-weight: 400;
     padding: 5px 0;
     text-align: justify;
     text-indent: 6ch;
@@ -87,10 +89,11 @@
 
 #linkProjeto{
     padding: 20px 20px;
-    background-color: black;
-    border: 2px solid rgb(82, 48, 114);
-    color: white;
+    background-color: white;
+    border: 2px solid rgb(247, 135, 7);
+    color: black;
     text-decoration: none;
+    text-shadow: 1px 1px 1px white;
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
     border-radius: 30px;
@@ -107,17 +110,17 @@
 
 .projeto__paragrafo-link{
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: black;
     margin-top: 2rem;
 }
 
 .projeto__link{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: rgb(158, 208, 255);
+    color: rgb(247, 135, 7);
 }
 
 @media(max-width:768px){
