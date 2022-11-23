@@ -21,8 +21,8 @@ header{
 }
 
 .header__button{
-    color: rgb(82, 48, 114);
-    text-shadow: 0.5px 0.5px 0.5px rgb(65, 25, 75);
+    color: rgb(247, 135, 7);
+    text-shadow: 1px 1px 0.5px rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
     font-family: 'Play', sans-serif;
@@ -32,7 +32,7 @@ header{
 
 .header__button:hover{
     transform: scale(1.1);
-    color: rgba(18, 53, 76, 1);
+    color:  #0168b9;
 }
 
 @media(max-width:768px){

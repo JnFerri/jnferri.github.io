@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
+    background-color: #0168b9;
     padding: 100px 0;
     margin-top: -10px;
 }
@@ -20,6 +20,7 @@
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
 }
 
 .sobre__paragrafo{
@@ -35,12 +36,12 @@
 .sobre__link{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(158, 208, 255);
+    color: rgb(235, 192, 2);
     text-decoration: none;
 }
 
 .sobre__link:hover{
-    color:rgb(48, 100, 148) ;
+    color:rgb(209, 230, 18) ;
 }
 
 .botao__certificados{
