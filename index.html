@@ -154,21 +154,38 @@
             </svg>
             <div class="contato__container">
                 <h2 class="contato__titulo">Contato</h2>
-                <p class="paragrafo__contato">Caso tenha gostado do meu portifólio entre em contato comigo através de uma das minhas redes sociais abaixo.</p>
-                <ul class="contato__lista">
-                    <li>
-                        <a href="https://github.com/JnFerri" target="_blank" class="contato__link"><img class="contato_img" src="imagens/icones/placa-do-github.png" alt="simbolo github"></a>
-                    </li>
-                    <li>
-                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=55049998116251" target="_blank" class="contato__link"><img class="contato_img" src="imagens/icones/whatsapp.png" alt="simbolo whatsapp"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/jean-ferri-9a9626198/" target="_blank" class="contato__link"><img class="contato_img" src="imagens/icones/logotipo-do-linkedin.png" alt="simbolo linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="" class="contato__link"><img class="contato_img" target="_blank" src="imagens/icones/instagram.png" alt="simbolo instagram"></a>
-                    </li>
-                </ul>
+                <div class="contato__box">
+                    <div class="contato__formulario">
+                        <form action="https://formsubmit.co/jeanferrimh@gmail.com" method="POST">
+                            <label for="name">Nome :</label>
+                            <input class="formulario__input" id="nome" name="name" type="name" placeholder="Nome">
+                            <label for="Email"> Email :</label>
+                            <input class="formulario__input" id="email" name="email" type="email" placeholder="SeuEmail@email.com">
+                            <label for="Mengasem">Mensagem: </label>
+                        <textarea class="formulario__textarea" name="message" id="mensagem" cols="40" rows="10" placeholder="Escreva Sua Mensagem"></textarea>
+                            <input type="submit"  class="formulario__submit" value="Enviar Mensagem">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://Jnferri.github.io">
+                        </form>
+                    </div>
+                    <div class="contato__redes">
+                        <p class="paragrafo__contato">Caso tenha gostado do meu portifólio entre em contato comigo através de uma das minhas redes sociais abaixo.</p>
+                        <ul class="contato__lista">
+                            <li>
+                                <a href="https://github.com/JnFerri" target="_blank" class="contato__link"><img class="contato_img" src="imagens/icones/placa-do-github.png" alt="simbolo github"></a>
+                            </li>
+                            <li>
+                                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=55049998116251" target="_blank" class="contato__link"><img class="contato_img" src="imagens/icones/whatsapp.png" alt="simbolo whatsapp"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jean-ferri-9a9626198/" target="_blank" class="contato__link"><img class="contato_img" src="imagens/icones/logotipo-do-linkedin.png" alt="simbolo linkedin"></a>
+                            </li>
+                            <li>
+                                <a href="" class="contato__link"><img class="contato_img" target="_blank" src="imagens/icones/instagram.png" alt="simbolo instagram"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
             </div>
 
