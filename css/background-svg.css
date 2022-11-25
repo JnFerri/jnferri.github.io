@@ -5,9 +5,15 @@ background: linear-gradient(90deg, rgba(247,173,68,1) 0%, rgba(235,238,111,1) 17
 .svg__top{
     rotate: 180deg;
     width: 100%;
-    
+    transform: translate3d(0 , -20px , 0) ;
 }
 
 .svg__bottom{
     width: 100%;
+    
+}
+
+.svg_animation{
+    transform: translate3d(0 ,0, 0) ;
+    
 }

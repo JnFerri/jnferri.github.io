@@ -35,6 +35,22 @@ import { Projeto } from "./Projeto.js"
         }
     }
 
+    const svgTop = document.querySelector(".svg__top")
+
+    setInterval(animacaoSVG,2000)
+
+    function animacaoSVG(){
+        svgTop.classList.add('svg_animation')
+        setTimeout(removeSVG, 3000)
+
+    }
+
+    function removeSVG(){
+        svgTop.classList.remove('svg_animation')
+    }
+
+    
+
       
 
 
