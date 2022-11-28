@@ -37,13 +37,20 @@ import { Projeto } from "./Projeto.js"
 
     
     const svgTop = []
+    const svgBottom = []
     new Array(document.querySelectorAll(".svg__top")).map(valor => valor.forEach(svg => svgTop.push(svg)))
+    new Array(document.querySelectorAll(".svg__bottom")).map(valor => valor.forEach(svg => svgTop.push(svg)))
     console.log(svgTop)
     
     setInterval(animacaoSVG,2000)
 
     function animacaoSVG(){
-        
+        for(let i = 0; i<svgTop.length;i++){
+            svgTop[i].classList.add('svg_animation')
+        }
+        for(let i = 0; i<svgBottom.length;i++){
+            svgBottom[i].classList.add('svg_animation')
+        }
         setTimeout(removeSVG, 3000)
 
     }
@@ -51,8 +58,15 @@ import { Projeto } from "./Projeto.js"
     function removeSVG(){
         for(let i = 0; i<svgTop.length;i++){
             svgTop[i].classList.remove('svg_animation')
+            for(let i = 0; i<svgBottom.length;i++){
+                svgBottom[i].classList.remove('svg_animation')
+            }
         }
     }
+
+    const imgEu = document.querySelector(".apresentacao__imagem")
+
+    
 
     
 

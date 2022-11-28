@@ -5,18 +5,30 @@ background: linear-gradient(90deg, rgba(247,173,68,1) 0%, rgba(235,238,111,1) 17
 .svg__top{
     rotate: 180deg;
     width: 100%;
-    filter:drop-shadow(-5px 30px 10px rgb(255, 255, 255));
-    transform: translate3d(0, 0, 0 )
+    filter:drop-shadow(-5px 25px 10px rgb(255, 255, 255));
+    transform: translate3d(0, 0, 0 );
+    
 }
 
 .svg__bottom{
     width: 100%;
     filter:drop-shadow(-5px 30px 10px rgb(255, 255, 255));
-    transform: translate3d(0, 0, 0, )
+    transform: translate3d(0, 0, 0, );
+   
+    
 }
 
 .svg_animation{
     transform: translate3d(0, -10px, 20px);
     
-    
+}
+
+@media(max-width:768px){
+    .svg__top{
+        filter:drop-shadow(0px 10px 5px rgb(255, 255, 255));
+    }
+    .svg__bottom{
+        filter:drop-shadow(0px 10px 5px rgb(255, 255, 255));
+
+    }
 }
