@@ -36,7 +36,7 @@ import { Projeto } from "./Projeto.js"
     }
 
     const svgTop = document.querySelector(".svg__top")
-
+    console.log(svgTop)
     setInterval(animacaoSVG,2000)
 
     function animacaoSVG(){
