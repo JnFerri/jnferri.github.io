@@ -72,6 +72,12 @@ transform: translate3d(0, 0, 0);
     .apresentacao__imagem{
         width: 80%;
     }
+    .apresentacao__imagem-animacao{
+        filter:drop-shadow(10px 30px 25px black);
+        transform: translate3d(0, 10px, 0 );
+        scale: 1;
+    
+    }
 
     .apresentacao__titulo{
         font-size: 36px;
