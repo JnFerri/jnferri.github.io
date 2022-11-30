@@ -64,8 +64,20 @@ import { Projeto } from "./Projeto.js"
         }
     }
 
-    const imgEu = document.querySelector(".apresentacao__imagem")
+    const tituloApresentacao = document.querySelector(".apresentacao__titulo")
+    const tituloParagrafo = document.querySelector(".apresentacao__paragrafo")
+    const imgApresentacao = document.querySelector(".apresentacao__imagem")
+    
+    window.onload = setTimeout(animacaoTitulo(), 1000)
+    window.onload = setTimeout(animacaoImg(), 1000)
 
+    function animacaoTitulo(){
+        tituloApresentacao.classList.add("apresentacao__titulo-animacao")
+        tituloParagrafo.classList.add("apresentacao__titulo-animacao")
+    }
+    function animacaoImg(){
+        imgApresentacao.classList.add("apresentacao__imagem-animacao")
+    }
     
 
     

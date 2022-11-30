@@ -20,8 +20,11 @@
     text-shadow: 3px 3px 1px black;
     margin-left: 10%;
     font-weight: bold;
-
+    transform: translate3d(0, 50px, 0 );
+    transition: 1s;
+    opacity: 0;
 }
+
 
 .apresentacao__paragrafo{
     padding: 1rem 0;
@@ -30,14 +33,30 @@
     font-size: 32px;
     color: white;
     margin-left: 10%;
+    transform: translate3d(0, 50px, 0 );
+    transition: 3s;
+    opacity: 0;
+}
+.apresentacao__titulo-animacao{
+transform: translate3d(0, 0, 0);
+    opacity: 1;
 }
 
 .apresentacao__imagem{
     right: 2%;
     bottom: 0%;
     width: 100vh;
-    filter:drop-shadow(10px 30px 25px black);
+    transition: 2s;
+    scale: 0.7;
+    transform: translate3d(0, 300px, 0 );
     z-index: -1;
+}
+
+.apresentacao__imagem-animacao{
+    filter:drop-shadow(10px 30px 25px black);
+    transform: translate3d(0, 0, 0 );
+    scale: 1;
+
 }
 
 @media(max-width:768px){
