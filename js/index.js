@@ -1,5 +1,7 @@
 import { Projeto } from "./Projeto.js"
+
     // Adiciona projeto na lista de projetos e ao clicar abre descrição sobre o projeto.
+
     let mirabilis = new Projeto('Mirabilis 3D Studio', 'Mirabilis 3D Studio é o projeto criado como teste para uma futura empresa a qual pretendo abrir de renderização de vídeos e imagens e criação de conteúdo para divulgação de produtos, função a qual faço na empresa onde trabalho atualmente a <a href="www.avioeste.com.br" class="sobre__link">Avioeste</a>. O site não esta totalmente concluído faltando o Back-End pois ainda não estudei nenhuma linguagem Back-End, pretendo futuramente aprender NodeJs e assim concluir totalmente o site.', 'https://jnferri.github.io/Mirabilis3dStudio/index.html')
     let recomendaLivros = new Projeto('Recomenda Livros', 'Recomenda livro é um projeto o qual criei para colocar em pratica alguns dos meus conhecimentos de arquitetura CSS. Gosto de ler e a ideia do site é recomendar bons livros demonstrando todos os sentimentos o qual o leitor pode ter ao ler boas obras. Para criação do site utilizei HTML, CSS e JavaScript.', 'https://jnferri.github.io/recomendalivro/index.html')
     let calculadora = new Projeto('Calculadora JavaScript','Calculadora criada utilizando JavaScript, fiz este projeto para me desafiar a criar uma calculadora totalmente sozinho e por em pratica logica de programação e treinar JavaScript.', 'projetos/Calculadora-Js/index.html')
@@ -23,62 +25,7 @@ import { Projeto } from "./Projeto.js"
         siteAdvogado.postarDescricao()
     })
 
-    // menu superior fica fixo ao dar scroll
-
-    const header = document.querySelector(".header")
-
-    window.onscroll = function(){
-        if(window.pageYOffset > 0){
-        header.classList.add("header-fix")
-        }else{
-            header.classList.remove("header-fix")
-        }
-    }
-
-    
-    const svgTop = []
-    const svgBottom = []
-    new Array(document.querySelectorAll(".svg__top")).map(valor => valor.forEach(svg => svgTop.push(svg)))
-    new Array(document.querySelectorAll(".svg__bottom")).map(valor => valor.forEach(svg => svgTop.push(svg)))
-    console.log(svgTop)
-    
-    setInterval(animacaoSVG,2000)
-
-    function animacaoSVG(){
-        for(let i = 0; i<svgTop.length;i++){
-            svgTop[i].classList.add('svg_animation')
-        }
-        for(let i = 0; i<svgBottom.length;i++){
-            svgBottom[i].classList.add('svg_animation')
-        }
-        setTimeout(removeSVG, 3000)
-
-    }
-
-    function removeSVG(){
-        for(let i = 0; i<svgTop.length;i++){
-            svgTop[i].classList.remove('svg_animation')
-            for(let i = 0; i<svgBottom.length;i++){
-                svgBottom[i].classList.remove('svg_animation')
-            }
-        }
-    }
-
-    const tituloApresentacao = document.querySelector(".apresentacao__titulo")
-    const tituloParagrafo = document.querySelector(".apresentacao__paragrafo")
-    const imgApresentacao = document.querySelector(".apresentacao__imagem")
-    
-    window.onload = setTimeout(animacaoTitulo(), 1000)
-    window.onload = setTimeout(animacaoImg(), 1000)
-
-    function animacaoTitulo(){
-        tituloApresentacao.classList.add("apresentacao__titulo-animacao")
-        tituloParagrafo.classList.add("apresentacao__titulo-animacao")
-    }
-    function animacaoImg(){
-        imgApresentacao.classList.add("apresentacao__imagem-animacao")
-    }
-    
+   
 
     
 
