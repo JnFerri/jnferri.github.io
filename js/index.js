@@ -7,6 +7,8 @@ import { Projeto } from "./Projeto.js"
     let calculadora = new Projeto('Calculadora JavaScript','Calculadora criada utilizando JavaScript, fiz este projeto para me desafiar a criar uma calculadora totalmente sozinho e por em pratica logica de programação e treinar JavaScript.', 'projetos/Calculadora-Js/index.html')
     let calculosEng = new Projeto('Sistema de Aproveitamento de Chapas', 'Projeto criado após eu perceber que na empresa onde trabalho, muitas vezes tínhamos que calcular manualmente a quantidade de peças que cabem na chapa e definir através da densidade do aço e o peso da peça, quanto seria o percentual de perda, para definirmos a quantidade de matéria prima total utilizada na produção da peça. O processo era demorado pois havia mais de uma medida de chapa de aço, sendo assim necessário calcular todas e ver qual teria menor percentual de perda. O projeto funciona colocando as medidas de altura e largura da peça no momento do corte, seu peso, material e espessura da chapa, dando assim o demonstrativo de todas as chapas disponíveis e percentual de perda.', 'https://jnferri.github.io/calcchapasavioeste/')
     let siteAdvogado = new Projeto('Site Advogado','Site criado totalmente por mim, landing page criada com o tema de um escritório de advocacia, criei este projeto para ver minhas capacidades criativas e também testar minhas habilidades.',"https://jnferri.github.io/Site-advogado/")
+    let ControleFinanceiro = new Projeto('Controle Financeiro','Site criado para aprofundar conhecimentos em padrão MVC, orientação a objetos, salvar dados em LocalStorage e utilização de bibliotecas JavaScript. Tecnologias utilizadas foram HTML5, CSS e JavaScript, utilizado também a biblioteca Chart.js para fazer os graficos.',"https://jnferri.github.io/ControleFinanceiro/")
+    
     let projeto = document.querySelectorAll('#projeto')
 
     projeto[0].addEventListener('click', function(){
@@ -23,6 +25,9 @@ import { Projeto } from "./Projeto.js"
     })
     projeto[4].addEventListener('click', function(){
         siteAdvogado.postarDescricao()
+    })
+    projeto[5].addEventListener('click', function(){
+        ControleFinanceiro.postarDescricao()
     })
 
    
